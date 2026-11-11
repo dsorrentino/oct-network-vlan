@@ -42,7 +42,7 @@ oc set image deploy/oct-network-vlan -n oct-network-vlan plugin=quay.io/<you>/oc
 **Otherwise** deploy the YAML in this repo with your image:
 
 ```bash
-sed 's|quay.io/cjanisze/oct-network-vlan:[^ ]*|quay.io/<you>/oct-network-vlan:dev|' deploy/install.yaml | oc apply -f -
+sed 's|quay.io/openshift-community-tools/oct-network-vlan:[^ ]*|quay.io/<you>/oct-network-vlan:dev|' deploy/install.yaml | oc apply -f -
 ```
 
 and enable the plugin in the console (skip if the storefront already enabled it):

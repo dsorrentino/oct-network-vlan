@@ -6,7 +6,7 @@ Standalone OpenShift Console plugin that creates VLAN networks from discovered L
 
 - **Plugin ID:** `oct-network-vlan`
 - **Version:** `1.1.5`
-- **Image:** `quay.io/cjanisze/oct-network-vlan:1.1.5-ocp4.22` and `:1.1.5-ocp4.21` (`<semver>-ocp<major.minor>`; always publish both minors)
+- **Image:** `quay.io/openshift-community-tools/oct-network-vlan:1.1.5-ocp4.22` and `:1.1.5-ocp4.21` (`<semver>-ocp<major.minor>`; always publish both minors)
 
 Validated on OpenShift **4.22** (PatternFly 6). Open from **Community Tools → Network** after the storefront (`oct-storefront`) and this plugin are enabled.
 

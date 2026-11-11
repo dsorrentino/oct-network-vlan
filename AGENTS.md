@@ -9,7 +9,7 @@ Do not add Community Tools category nav here. Users open this page from the stor
 | | Value |
 | --- | --- |
 | Plugin ID / ConsolePlugin / `package.json` `consolePlugin.name` | **`oct-network-vlan`** |
-| Image | `quay.io/cjanisze/oct-network-vlan:1.1.5-ocp4.22` (`<semver>-ocp<major.minor>`) |
+| Image | `quay.io/openshift-community-tools/oct-network-vlan:1.1.5-ocp4.22` (`<semver>-ocp<major.minor>`) |
 | i18n | `plugin__oct-network-vlan` |
 
 Display name is **Network VLAN**. No PVC or discovery sidecar.
